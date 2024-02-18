@@ -24,6 +24,9 @@
                                 echo "<h1> $line </h1>";
                                 $count = $count +1;
                             }
+                            else{
+                                echo $line;
+                            }
                         }
                         echo "<br>";
                     }
