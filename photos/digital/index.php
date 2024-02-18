@@ -15,7 +15,7 @@
             <div id="main">
                 <p>These photos were all taken on my <b>Nikon D3500</b> that I got for my 16th birthday! I've been using since 2019 maybe? And some of these photos are from that year. Presented in mostly chronological order but no promises. Hover to enlarge.</p>
                 <?php 
-                    $dirname = "photos/digital/";
+                    $dirname = "/";
                     $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
                     foreach($images as $image) {
                         echo '<img src="'.$image.'" /><br />';
