@@ -27,10 +27,10 @@
                             }
                             else{
                                 echo $line;
+                                echo "<br>";
                             }
-                            echo "<br>";
                         }
-                        echo "</p><br><hr>";
+                        echo "</p><hr>";
                     }
                 ?>
                 <h3>23/01/24</h3>
