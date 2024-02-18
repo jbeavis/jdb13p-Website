@@ -15,7 +15,7 @@
             </div>
             <div id="main">
                 <?php
-                    $dirname = "";
+                    $dirname = "logs/";
                     $logs = glob($dirname."*.txt");
                     foreach($logs as $log) {
                         $count = 0;
