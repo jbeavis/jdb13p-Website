@@ -15,7 +15,7 @@
             <div id="main">
                 <p>These are all photos I've taken on my mobile phone over the years. I currently use a <b>Samsung A52.</b> <br>I haven't yet uploaded many photos but I will after I sift through my Google Photos... Hover to enlarge.</p>
                 <?php 
-                    $dirname = "/";
+                    $dirname = "";
                     $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
                     foreach($images as $image) {
                         echo '<img src="'.$image.'" /><br />';

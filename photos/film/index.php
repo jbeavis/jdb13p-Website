@@ -15,7 +15,7 @@
             <div id="main">
                 <p>These photos were taken on my late Grandfather's <b>Nikon f601.</b> It's not the most spectacular camera but I like using it knowing my Dad and his Dad used it too. Some of these are my favourites I've taken, although it helps I took them most recently. I enjoy that I have to think carefully before I shoot. Hover to enlarge.</p>
                 <?php 
-                    $dirname = "/";
+                    $dirname = "";
                     $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
                     foreach($images as $image) {
                         echo '<img src="'.$image.'" /><br />';
