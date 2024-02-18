@@ -1,0 +1,6 @@
+18/02/2024
+Hello! I've moved this site off neocities, because I wanted to learn php.
+This log you're reading right now has been brought to you by the power of php! So have all the photos in the gallery too, check THAT out. I do need to figure out how to make those photos have some kind of title or meta data or something so that blind people can read them, that job is nextish. 
+After that... SQL!! And then I'm essentially a real web developer. Can you believe it?
+This website it also hosted by me! But I need to figure out how I'm securing my server, because I feel like it probably has more holes in it than swiss cheese.
+After that, node.js maybe? It's used a lot by my cowowrkers, so I should really learn it, just in case. Or Angular? I thought I'd start with php, because those two looked pretty scary to me.
