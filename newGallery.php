@@ -15,6 +15,7 @@
             <div id="main">
                 <p>hellooo</p>
                 <?php 
+                    echo "Testing";
                     $dirname = "photos/digital/";
                     $images = glob($dirname."*.{jpg,gif,png}");
 
