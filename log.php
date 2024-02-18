@@ -18,7 +18,11 @@
                     $dirname = "";
                     $logs = glob($dirname."*.txt");
                     foreach($logs as $log) {
-                        echo file_get_contents($log);
+                        foreach($logs as $line) {
+                            echo $line;
+                        }
+                    ?>
+    
                     }
                 ?>
                 <h3>23/01/24</h3>
@@ -30,7 +34,6 @@
                 <h3>22/06/23</h3>
                 <p>I've redesigned the site! I didn't like the side bar, or the way I was using Tumblr to host my photos, (or the way I wrote everything in lowercase...) so I made this instead. It looks pretty similar, I used the same colours and fonts, but it was made mostly from scratch. I've been very bored since uni ended and I went home to my family haha... I'll see if I can find a way to host my old logs here somewhere.</p>
                 <hr>
-                <p><a href="log--old.html">Old logs</a></p>
             </div>
         </div>
     </body>
