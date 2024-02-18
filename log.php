@@ -20,9 +20,9 @@
                     foreach($logs as $log) {
                         $count = 0;
                         foreach(file($log) as $line) {
-                            if(count == 0){
+                            if($count == 0){
                                 echo "<h1> $line </h1>";
-                                count = count +1;
+                                $count = $count +1;
                             }
                         }
                         echo "<br>";
