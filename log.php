@@ -14,6 +14,13 @@
                 <p><a href ="index.html">>home</a>&nbsp;&nbsp;&nbsp;<a href="about.html">>about</a>&nbsp;&nbsp;&nbsp;<a href="gallery.html">>gallery</a>&nbsp;&nbsp;&nbsp;<a href="writing.html">>writing</a>&nbsp;&nbsp;&nbsp;<a href="log.html">>log</a>&nbsp;&nbsp;&nbsp;<a href="bonus.html">>bonus</a></p>
             </div>
             <div id="main">
+                <?php
+                    $dirname = "";
+                    $logs = glob($dirname."*.txt");
+                    foreach($logs as $log) {
+                        echo file_get_contents($log);
+                    }
+                ?>
                 <h3>23/01/24</h3>
                 <p>I've added some photos to the gallery. I also took some photos out of the gallery. Which will be added in at a later date!! <br> I'm learning a lot on my work placement. Which is great, but it also makes me feel like this website could use a MAJOR refactor.</p>
                 <hr>
