@@ -15,10 +15,8 @@
             <div id="main">
                 <p>hellooo</p>
                 <?php 
-                    echo "Testing";
-                    $dirname = "./photos/digital/";
-                    $images = glob($dirname."*.{jpg,gif,png}");
-
+                    $dirname = "photos/digital/";
+                    $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
                     foreach($images as $image) {
                         echo '<img src="'.$image.'" /><br />';
                     }
