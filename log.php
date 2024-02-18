@@ -27,8 +27,9 @@
                             else{
                                 echo $line;
                             }
+                            echo "<br>"
                         }
-                        echo "<br>";
+                        echo "<hr>";
                     }
                 ?>
                 <h3>23/01/24</h3>
