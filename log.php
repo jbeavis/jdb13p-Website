@@ -21,15 +21,16 @@
                         $count = 0;
                         foreach(file($log) as $line) {
                             if($count == 0){
-                                echo "<h1> $line </h1>";
+                                echo "<h3> $line </h3>";
                                 $count = $count +1;
+                                echo "<p>";
                             }
                             else{
                                 echo $line;
                             }
                             echo "<br>";
                         }
-                        echo "<br><hr>";
+                        echo "</p><br><hr>";
                     }
                 ?>
                 <h3>23/01/24</h3>
