@@ -1,4 +1,0 @@
-- partition writing.html
-- add more photos
-- maybe put a second column for photos
-- add stuff to about.html
