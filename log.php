@@ -22,9 +22,6 @@
                             echo $line;
                         }
                     }
-                    ?>
-    
-                    }
                 ?>
                 <h3>23/01/24</h3>
                 <p>I've added some photos to the gallery. I also took some photos out of the gallery. Which will be added in at a later date!! <br> I'm learning a lot on my work placement. Which is great, but it also makes me feel like this website could use a MAJOR refactor.</p>
