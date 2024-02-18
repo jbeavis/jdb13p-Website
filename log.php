@@ -21,6 +21,7 @@
                         foreach($logs as $line) {
                             echo $line;
                         }
+                    }
                     ?>
     
                     }
