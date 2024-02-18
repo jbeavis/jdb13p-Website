@@ -18,7 +18,7 @@
                     $dirname = "";
                     $logs = glob($dirname."*.txt");
                     foreach($logs as $log) {
-                        foreach($logs as $line) {
+                        foreach(file($logs) as $line) {
                             echo $line;
                         }
                     }
