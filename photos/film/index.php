@@ -3,22 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Phone</title>
+        <title>Film</title>
         <link href="../../style.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <body id = 'gallery'>
         <div id="content">
-            <h2 style="text-align: center;">Phone</h2>
+            <h2 style="text-align: center;">Film</h2>
             <div id="links">
                 <p><a href ="../../index.html">>home</a>&nbsp;&nbsp;&nbsp;<a href="../../about.html">>about</a>&nbsp;&nbsp;&nbsp;<a href="../../gallery.html">>gallery</a>&nbsp;&nbsp;&nbsp;<a href="../../writing.html">>writing</a>&nbsp;&nbsp;&nbsp;<a href="../../log.html">>log</a>&nbsp;&nbsp;&nbsp;<a href="../../bonus.html">>bonus</a></p>
             </div>
             <div id="main">
-                <p>These are all photos I've taken on my mobile phone over the years. I currently use a <b>Samsung A52.</b> <br>I haven't yet uploaded many photos but I will after I sift through my Google Photos... Hover to enlarge.</p>
-                <img src="a.jpg" alt="The ceiling of a cathedral in Venice">
-                <img src="20230402_125558.jpg" alt="My grey cat">
-                <img src="20230408_163037.jpg" alt="My orange cat">
-                <img src="20230413_130723.jpg" alt="A lamb">
-                <img src="20230420_174848.jpg" alt="A statue in a park">
+                <p>These photos were taken on my late Grandfather's <b>Nikon f601.</b> It's not the most spectacular camera but I like using it knowing my Dad and his Dad used it too. Some of these are my favourites I've taken, although it helps I took them most recently. I enjoy that I have to think carefully before I shoot. Hover to enlarge.</p>
+                <?php 
+                    $dirname = "photos/film/";
+                    $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
+                    foreach($images as $image) {
+                        echo '<img src="'.$image.'" /><br />';
+                    }
+                ?>
                 <p><a href="../../gallery.html"><-Back</a></p>
             </div>
         </div>

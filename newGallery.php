@@ -13,7 +13,6 @@
                 <p><a href ="index.html">>home</a>&nbsp;&nbsp;&nbsp;<a href="about.html">>about</a>&nbsp;&nbsp;&nbsp;<a href="gallery.html">>gallery</a>&nbsp;&nbsp;&nbsp;<a href="writing.html">>writing</a>&nbsp;&nbsp;&nbsp;<a href="log.html">>log</a>&nbsp;&nbsp;&nbsp;<a href="bonus.html">>bonus</a></p>
             </div>
             <div id="main">
-                <p>hellooo</p>
                 <?php 
                     $dirname = "photos/digital/";
                     $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);

@@ -14,18 +14,13 @@
             </div>
             <div id="main">
                 <p>These photos were all taken on my <b>Nikon D3500</b> that I got for my 16th birthday! I've been using since 2019 maybe? And some of these photos are from that year. Presented in mostly chronological order but no promises. Hover to enlarge.</p>
-                <img src="DSC_0319.JPG" alt="Statues of the Buddha in Cambodia">
-                <img src="DSC_0482.jpg" alt="The TEMPLE OF DOOM">
-                <img src="DSC_0333.JPG" alt="Some teenagers (my friends) on a boulder in Cambodia">
-                <img src="DSC_0546.JPG" alt="Two men fishing">
-                <img src="DSC_0575.JPG" alt="Whitby Castle from a distance">
-                <img src="DSC_0875.JPG" alt="A pier at sunset">
-                <img src="DSC_0944.JPG" alt="A motor cyclist on a road">
-                <img src="DSC_0096.jpg" alt="A swan">
-                <img src="3334.JPG" alt="A boat on a canal in Venice">
-                <img src="DSC_0148.JPG" alt="A bridge over a canal in Venice">
-                <img src="DSC_0219.jpg" alt="Another bridge over a canal in Venice">
-                <img src="DSC_0250 2.JPG" alt ="Lights on a canal in Venice">
+                <?php 
+                    $dirname = "photos/digital/";
+                    $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
+                    foreach($images as $image) {
+                        echo '<img src="'.$image.'" /><br />';
+                    }
+                ?>
                 <p><a href="../../gallery.html"><-Back</a></p>
             </div>
         </div>
