@@ -27,7 +27,7 @@
                             else{
                                 echo $line;
                             }
-                            echo "<br>"
+                            echo "<br>";
                         }
                         echo "<hr>";
                     }
