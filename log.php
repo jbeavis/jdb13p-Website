@@ -17,7 +17,7 @@
                 <?php
                     $dirname = "logs/";
                     $logs = glob($dirname."*.txt");
-                    foreach($logs as $log) {
+                    foreach($array_reverse($logs) as $log) {
                         $count = 0;
                         foreach(file($log) as $line) {
                             if($count == 0){
