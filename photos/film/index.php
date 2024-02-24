@@ -13,7 +13,7 @@
                 <p><a href ="../../index.html">>home</a>&nbsp;&nbsp;&nbsp;<a href="../../about.html">>about</a>&nbsp;&nbsp;&nbsp;<a href="../../gallery.html">>gallery</a>&nbsp;&nbsp;&nbsp;<a href="../../writing.html">>writing</a>&nbsp;&nbsp;&nbsp;<a href="../../log.html">>log</a>&nbsp;&nbsp;&nbsp;<a href="../../bonus.html">>bonus</a></p>
             </div>
             <div id="main">
-                <p>These photos were taken on my late Grandfather's <b>Nikon f601.</b> It's not the most spectacular camera but I like using it knowing my Dad and his Dad used it too. Some of these are my favourites I've taken, although it helps I took them most recently. I enjoy that I have to think carefully before I shoot. Hover to enlarge.</p>
+                <p>These photos were taken on my late Grandfather's <b>Nikon f601.</b> It's not the most spectacular camera but I like using it knowing my Dad and his Dad used it too. Some of these are my favourites I've taken, although it helps that I took them most recently. I enjoy that I have to think carefully before I shoot. Hover to enlarge.</p>
                 <?php 
                     $dirname = "";
                     $images = glob($dirname."*.{jpg,png,JPG,PNG}", GLOB_BRACE);
