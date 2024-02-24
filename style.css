@@ -4,7 +4,7 @@ body{
     font-family: "Helvetica", "Arial", "sans-serif", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #content{
-    width: 70%;
+    width: 750px;
     background-color: #1A2421;
     color: white;
     margin: auto;
@@ -13,6 +13,11 @@ body{
     border-color: #1A2421;
     padding: 2%;
     margin-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+    #content{
+        width: 70%;
+    }
 }
 #links{
     border-style: solid;
