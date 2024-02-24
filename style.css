@@ -4,7 +4,7 @@ body{
     font-family: "Helvetica", "Arial", "sans-serif", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #content{
-    width: 750px;
+    width: 70%;
     background-color: #1A2421;
     color: white;
     margin: auto;
